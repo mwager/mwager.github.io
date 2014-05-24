@@ -1,0 +1,37 @@
+# --- jekyll config ---
+
+# Site settings
+title: michael wager | software engineering
+email: mail@mwager.de
+description: "software engineering für web & mobile"
+keywords: javascript php software engineering german augsburg münchen munich mwager blog freelance web developer
+baseurl: ""
+url: "https://mwager.de"
+# source: ./
+# solange noch in "staging", wird einfach blog.mwager.de verwendet (mit htpasswd)
+# url: https://blog.mwager.de
+
+# some globals:
+cv_link: "/michael-wager-cv.pdf"
+street: Haspingerstrasse 2
+address: 86165 Augsburg
+tel_nr: +49-821/44989221
+
+# Build settings
+# markdown: (kramdown or redcarpet?)
+markdown: kramdown
+permalink: pretty
+
+# custom ...
+highlighter: pygments
+timezone: Europe/Berlin
+safe: true
+lsi: false
+
+# changed via grunt to `prod` before ftp upload,
+# after uploading it will be changed back again.
+env: "dev"
+
+# exclude file while running "jekyll build"
+# NOTE: .htaccess manually
+exclude: [_.*, Gruntfile.js, package.json, README.md, readme.md]

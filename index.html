@@ -1,1 +1,127 @@
-will be mwager.de soon...
+---
+layout: default
+---
+
+<div class="home">
+    <h1>Projekte</h1>
+
+    <!-- <h2>2014</h2> -->
+
+    <!-- <section class="post">
+        <a href="/projects/fahrschulcard/">Fahrschulcard</a>
+    </section> -->
+    <section class="post">
+        <header class="post-header">
+            <span class="post-date">01/2014 - 04/2014</span>
+            <a href="/projects/gruppe3/">Gruppe3 CMS</a>
+        </header>
+        <div class="post-description">
+            <p>
+                Entwicklung einer individuellen Content Management Lösung für die
+                <a target="_blank" href="http://gruppe3.de">Gruppe3 GmbH</a>.
+            </p>
+        </div>
+    </section>
+
+    <!-- <h2>2013</h2> -->
+    <section class="post">
+        <header class="post-header">
+            <span class="post-date">02/2013 - 07/2013 (Eigenentwicklung)</span>
+            <a href="/projects/atonego/">AtOneGo</a>
+        </header>
+
+        <div class="post-description">
+            <p>
+            Entwicklung einer hybriden Mobile/Web-Applikation zur Verwaltung von
+            Aufgaben im Team. Verfügbar für iPhone/iPad im <a target="_blank" href="https://itunes.apple.com/de/app/atonego/id668972250">AppStore</a>,
+            für Android-Smartphones und -Tablets im <a target="_blank" href="https://play.google.com/store/apps/details?id=de.mwager.atonego">Google Play
+            Store</a> sowie als <a target="_blank" href="https://atonego-mwager.rhcloud.com/app">Web-App</a>.
+            </p>
+        </div>
+    </section>
+
+    <section class="post">
+        <header class="post-header">
+            <span class="post-date">01/2013 - 05/2013</span>
+            <a href="/projects/sharepool">Sharepool</a>
+        </header>
+        <div class="post-description">
+            <p>Entwurf, Implementierung und Qualitätssicherung einer webbasierten Software zur
+            Projektverwaltung für die <a href="http://tresor.tv" target="_blank">Tresor TV GmbH</a>.</p>
+        </div>
+    </section>
+
+    <!-- <h2>2012</h2> -->
+    <section class="post">
+        <header class="post-header">
+            <p class="post-meta">
+                <span class="post-date">09/2012 - 10/2012</span>
+                <a href="/projects/flirtsaver">Flirtsaver</a>
+            </p>
+        </header>
+        <div class="post-description">
+            <p>Entwicklung einer echtzeitfähigen Webapplikation mit Node.js. Webauftritt unter
+            <a target="_blank" href="http://flirtsaver.de">www.flirtsaver.de</a>.</p>
+        </div>
+    </section>
+
+    <section class="post">
+        <header class="post-header">
+            <span class="post-date">05/2012 - 07/2012</span>
+            <a href="/projects/shopcaching">Shopcaching</a>
+        </header>
+        <div class="post-description">
+            <p>Entwicklung einer echtzeitfähigen Webapplikation mit Node.js. Webauftritt unter
+            <a target="_blank" href="http://shopcaching.com">www.shopcaching.com</a>.</p>
+        </div>
+    </section>
+
+    <!-- <h2>2011</h2> -->
+    <section class="post">
+        <header class="post-header">
+            <span class="post-date">05/2011 - 08/2011 (Bachelorarbeit)</span>
+            <a href="/projects/jam/">jAM - automatic music transcription</a>
+        </header>
+        <div class="post-description">
+            <p>Software zur automatischen Transkription von einstimmigem Audiomaterial.</p>
+        </div>
+    </section>
+
+
+    <hr>
+
+    <div id="blog">
+        <h1>Artikel</h1>
+
+        <section class="post featured">
+            <header class="post-header">
+                <span class="post-date">19. August 2013</span>
+                <a class="post-link" href="http://phpmagazin.de/artikel/Moderne-JavaScript-Applikationen-ein-Ueberblick">
+                    PHPMagazin: Moderne JavaScript-Applikationen – ein Überblick
+                </a>
+            </header>
+
+            <div class="post-description">
+                <p>
+                <em>Single-Page-App? Nein, damit ist nicht die App einer Partnerbörse gemeint. So mancher denkt bei dem Begriff vielleicht sogar an eine "Landing Page" zur Vorstellung eines neuen Produkts. Gemeint sind damit jedoch Webapplikationen basierend auf der Sprache JavaScript, welche vorwiegend darauf abzielen, das Benutzererlebnis zu verbessern.</em></p>
+                <p>Weiterlesen auf <a href="http://phpmagazin.de/artikel/Moderne-JavaScript-Applikationen-ein-Ueberblick">phpmagazin.de</a>
+                </p>
+            </div>
+        </section>
+
+        {% for post in site.posts %}
+        <section class="post">
+            <header class="post-header">
+                <span class="post-date jdate">{{ post.date | date: "%-d. %m. %Y" }}</span>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </header>
+            <div class="post-description">
+                {{ post.excerpt }}
+            </div>
+        </section>
+        {% endfor %}
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+</div>
+
