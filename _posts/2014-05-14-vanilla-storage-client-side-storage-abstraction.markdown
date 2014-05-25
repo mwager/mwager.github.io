@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VanillaStorage.js - cross-browser HTML5 storage"
-date:   2014-05-14 15:17:42
+date:   2014-04-14 15:17:42
 categories: javascript
 ---
 

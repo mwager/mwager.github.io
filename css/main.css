@@ -134,6 +134,11 @@ hr {
   text-align: center;
 }
 
+/* some box shadow for images */
+img.shadow {
+  box-shadow: 3px 3px 5px #888;
+}
+
 /*
 .wrap:before,
 .wrap:after { content:""; display:table; }
@@ -154,27 +159,23 @@ footer .wrap {
 }
 
 /**
- * Buttons
+ * No support for IE <= 8
+ * (-;
  */
-.btn {
-  background-color: #f16529; /* eee */
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f16529), color-stop(100%, #e44d26));
-  background-image: -webkit-linear-gradient(top, #f16529, #e44d26);
-  background-image: -moz-linear-gradient(top, #f16529, #e44d26);
-  background-image: -ms-linear-gradient(top, #f16529, #e44d26);
-  background-image: -o-linear-gradient(top, #f16529, #e44d26);
-  background-image: linear-gradient(top, #f16529, #e44d26);
-  border: 1px solid #e44d26;
-  border-bottom: 1px solid #e44d26;
-  border-radius: 3px;
-  color: #fff;
-  font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-  padding: 8px 0;
-  /*text-align: center;*/
-  /*text-shadow: 0 1px 0 #eee;*/
-  width: auto; /*150px;*/
-  display: block;
+#old-ie-message {
+  background-color: red;
+  color:#fff;
+  font-size: 20px;
 }
+#old-ie-message a {
+  color:#fff;
+  text-decoration: underline;
+}
+
+/**
+ * Buttons
+ * @see purecss.io
+ */
 
 .button-success,
 .button-error,
@@ -185,23 +186,18 @@ footer .wrap {
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-
 .button-success {
     background: rgb(28, 184, 65); /* this is a green */
 }
-
 .button-error {
     background: rgb(202, 60, 60); /* this is a maroon */
 }
-
 .button-warning {
     background: rgb(223, 117, 20); /* this is an orange */
 }
-
 .button-secondary {
     background: rgb(66, 184, 221); /* this is a light blue */
 }
-
 .button-mwa {
   background: #f16529;
 }
@@ -209,7 +205,7 @@ footer .wrap {
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
-/* Site header */
+/* Sitebar */
 
 .sidebar {
   /*background: rgb(61, 79, 93);*/
@@ -324,18 +320,7 @@ footer .wrap {
   margin:30px 0;
 }
 
-/*****
-.posts { list-style-type: none; }
-
-.posts li { margin-bottom: 30px; }
-
-.posts .post-link {
-  font-size: 24px;
-  letter-spacing: -1px;
-  line-height: 1;
-}
-*/
-
+/* also used on project pages! */
 .post-date {
     color: #999;
 }
@@ -347,21 +332,8 @@ footer .wrap {
 }
 
 
-/* custom pages */
-/* ----------------------------------------------------------*/
-
-
-
 /* Post styles */
 /* ----------------------------------------------------------*/
-
-
-/*.post-header h1 {
-  font-size: 42px;
-  letter-spacing: -1.75px;
-  line-height: 1;
-  font-weight: 300;
-}*/
 
 .post-header .meta {
   font-size: 15px;
@@ -384,14 +356,6 @@ footer .wrap {
 .fancy-images-in-grid img {
   max-width: 90%;
   box-shadow: 3px 3px 5px #888;
-}
-img.shadow {
-  box-shadow: 3px 3px 5px #888;
-}
-
-@media screen and (max-width: 767px) {
-  .fancy-images-in-grid img {
-  }
 }
 
 .home .post-container img {
@@ -417,22 +381,6 @@ img.shadow {
   margin: 40px 0 20px;
 }
 
-/***
-.post-content h2 {
-  font-size: 32px;
-  letter-spacing: -1.25px;
-}
-
-.post-content h3 {
-  font-size: 26px;
-  letter-spacing: -1px;
-}
-
-.post-content h4 {
-  font-size: 20px;
-  letter-spacing: -1px;
-}****/
-
 .post-content blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 20px;
@@ -446,6 +394,12 @@ img.shadow {
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
+/*default:*/
+.post pre {
+  white-space: pre;
+  word-wrap: normal;
+  overflow-x: auto;
+}
 .post pre,
 .post code {
   border: 1px solid #d5d5e9;
@@ -454,8 +408,28 @@ img.shadow {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  font-size: 15px;
+  font-size: 13px;
 }
+
+/* solarized theme fake: */
+.post .highlight pre,
+.post .highlight code {
+  background-color: #002b36;
+  color: #879696;
+}
+/*comments*/
+.post .highlight code .c1 {
+  color: #546d57
+}
+/*functions*/
+.post .highlight code .kd {
+  color: #278bd2;
+}
+/*strings*/
+.post .highlight code .s1 {
+  color: #1f9796;
+}
+
 
 .post code { padding: 1px 0; }
 

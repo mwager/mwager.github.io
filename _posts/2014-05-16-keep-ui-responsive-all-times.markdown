@@ -36,7 +36,7 @@ $('#some-button').on('click', function() {
     // non-blocking
     setTimeout(function() {
         doHeavyStuff();
-    }, 25)
+    }, 25);
 }
 {% endhighlight %}
 
