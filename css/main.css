@@ -416,9 +416,14 @@ footer .wrap {
 .post .highlight code {
   background-color: #002b36;
   color: #879696;
+  border:none;
 }
 /*comments*/
-.post .highlight code .c1 {
+.post .highlight code .cm,
+.post .highlight code .cp,
+.post .highlight code .c1,
+.post .highlight code .cs
+{
   color: #546d57
 }
 /*functions*/
