@@ -25,7 +25,7 @@ permalink: pretty
 # custom ...
 highlighter: pygments
 timezone: Europe/Berlin
-safe: true
+safe: false
 lsi: false
 
 # changed via grunt to `prod` before ftp upload,

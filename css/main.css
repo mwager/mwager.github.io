@@ -117,7 +117,7 @@ a:visited { color: #e44d26; }
 
 
 #layout {
-  border-top: 5px solid #f16529; /*  html5 color orange: dunkel #e44d26 oder hell #f16529 */ /* alt: #333 */
+  /*border-top: 5px solid #f16529;*/   /**  html5 color orange: dunkel #e44d26 oder hell #f16529 alt: #333 */
 }
 
 
@@ -180,8 +180,11 @@ footer .wrap {
 /* Site header */
 
 .sidebar {
-  border-bottom: 1px solid #e8e8e8;
+  /*background: rgb(61, 79, 93);*/
+  background-color: #F8F8F8; /* old: #fdfdfd; */
+  border-bottom: 1px solid #e8e8e8; /*#e8e8e8*/
   text-align: center;
+  border-top: 5px solid #f16529;
 }
 .sidebar .main-link {
   display: inline-block;
@@ -540,12 +543,6 @@ h3 {
     margin: 3em auto;
 }
 
-.sidebar {
-    /*background: rgb(61, 79, 93);
-    color: #fff;*/
-    background-color: #fdfdfd;
-}
-
 .brand-title,
 .brand-tagline {
     margin: 0;
@@ -659,8 +656,10 @@ h3 {
 
     .sidebar {
         position: fixed;
-        top: 5px;
+        top: 0;
         bottom: 0;
+        border-top: 0px;
+        border-bottom: 0px;
     }
     .sidebar .nav {
         margin-top:15px;
