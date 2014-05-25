@@ -22,6 +22,8 @@ Michael Wager
 
 Alle Texte in diesem Blog stehen unter der <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Lizenz (CC BY-SA)</a>.
 
+Der gesamte Quellcode dieser Website ist öffentlich verfügbar <a href="https://github.com/mwager/mwager.github.io">auf GitHub</a>. Code steht standardmäßig unter der <a href="https://github.com/mwager/mwager.github.io/blob/master/LICENSE">MIT Lizenz</a>.
+
 
 ## HAFTUNGSAUSSCHLUSS ##
 
