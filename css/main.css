@@ -87,10 +87,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   margin: 15px 0;
 }
-h1 { font-size: 24px; }
-h2 { font-size: 18px; }
-h3 { font-size: 15px; }
-h3 { font-size: 13px; }
+h1 { font-size: 28px; }
+h2 { font-size: 22px; }
+h3 { font-size: 19px; }
+h4 { font-size: 17px; }
+h5 { font-size: 15px; }
+h6 { font-size: 14px; }
 
 h2 small {
   float: right;
@@ -383,6 +385,10 @@ footer .wrap {
   max-width: 90%;
   box-shadow: 3px 3px 5px #888;
 }
+img.shadow {
+  box-shadow: 3px 3px 5px #888;
+}
+
 @media screen and (max-width: 767px) {
   .fancy-images-in-grid img {
   }
@@ -411,6 +417,7 @@ footer .wrap {
   margin: 40px 0 20px;
 }
 
+/***
 .post-content h2 {
   font-size: 32px;
   letter-spacing: -1.25px;
@@ -424,7 +431,7 @@ footer .wrap {
 .post-content h4 {
   font-size: 20px;
   letter-spacing: -1px;
-}
+}****/
 
 .post-content blockquote {
   border-left: 4px solid #e8e8e8;

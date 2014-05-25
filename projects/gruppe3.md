@@ -16,14 +16,13 @@ Entwurf, Implementierung und Qualitätssicherung einer individuellen Content Man
 
 jQuery, Backbone.js, Twitter Bootstrap (v3)
 
+<img src="/images/gruppe3-frontend.png" class="shadow">
+
+
 ### Backend ###
 
 Laravel 4, MySQL, PHPUnit
 
+<img src="/images/gruppe3-backend.png" class="shadow">
 
-<img src="/images/gruppe3-backend.png">
-<small class="image-cap">Backend</small>
-
-<img src="/images/gruppe3-frontend.png">
-<small class="image-cap">Frontend</small>
 

@@ -9,7 +9,7 @@ categories: javascript
 
 Entwicklung einer Online/App-Plattform für reale Ladengeschäfte. Entwurf, Implementierung und Qualitätssicherung der Web- sowie der mobilen Anwendung.
 
-Eine Zusammenarbeit mit den [Projekthelden](http://projekthelden.de)
+Eine Zusammenarbeit mit den [Projekthelden](http://projekthelden.de).
 
 ## Technologien ##
 
@@ -22,6 +22,6 @@ Eine Zusammenarbeit mit den [Projekthelden](http://projekthelden.de)
 
 * Titanium Appcelerator, Jasmine
 
-Weitere Informationen auf [www.shopcaching.com](http://www.shopcaching.com)
+Weitere Informationen auf [www.shopcaching.com](http://www.shopcaching.com).
 
 <img src="/images/shopcaching.jpg">
