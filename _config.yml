@@ -8,8 +8,6 @@ keywords: javascript php software engineering german augsburg münchen munich mw
 baseurl: ""
 url: "https://mwager.de"
 # source: ./
-# solange noch in "staging", wird einfach blog.mwager.de verwendet (mit htpasswd)
-# url: https://blog.mwager.de
 
 # some globals:
 cv_link: "/michael-wager-cv.pdf"
@@ -29,11 +27,6 @@ timezone: Europe/Berlin
 # NOTE: github overwrites this to true, so we can use it as "production" env flag:
 safe: false
 lsi: false
-
-# changed via grunt to `prod` before ftp upload,
-# after uploading it will be changed back again.
-# SEE safe: false !
-# env: "dev"
 
 # exclude file while running "jekyll build"
 # NOTE: .htaccess manually
