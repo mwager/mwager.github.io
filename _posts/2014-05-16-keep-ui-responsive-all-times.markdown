@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript und Mobile - Keeping the ui responsive at all times"
+title:  "JavaScript on Mobile - Einfache Optimierung mit Timern"
 date:   2014-05-16 16:43:12
 categories: javascript
 ---
@@ -20,18 +20,18 @@ Ein kleines Codebeispiel um das Problem zu verdeutlichen. Es wird jQuery (oder Z
 
 {% highlight javascript linenos %}
 $('#some-button').on('click', function() {
-    changeUI();
+    updateUI();
 
     // blocking
     doHeavyStuff();
 }
 {% endhighlight %}
 
-Ist die Funktion `doHeavyStuff()` sehr rechenintensiv, so kann man diese mit Hilfe eines Timers ausführen: (TODO better formulieren)
+Ist die Funktion `doHeavyStuff()` sehr rechenintensiv, so kann dies auf mobilen Geräten dazu führen, dass der Screen für kurze Zeit hängt ("Freeze"). Um dies zu verhindern kann man die rechenintensive Funktion innerhalb eines Timers zeitverzögert ausführen:
 
 {% highlight javascript linenos %}
 $('#some-button').on('click', function() {
-    changeUI();
+    updateUI();
 
     // non-blocking
     setTimeout(function() {
@@ -40,7 +40,7 @@ $('#some-button').on('click', function() {
 }
 {% endhighlight %}
 
-Nun kann `changeUI()` ausgeführt werden, der Click-Handler wird beendet und BLAAA (TODO BOOK!). Nice.
+Nun kann `updateUI()` ausgeführt werden, der Click-Handler wird beendet und BLAAA (TODO BOOK!). Nice.
 
 
 ## Zusammenfassung ##

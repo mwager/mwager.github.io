@@ -7,6 +7,8 @@ categories: javascript
 
 # Sharepool #
 
+<span class="post-date">01/2013 - 05/2013</span>
+
 <img src="/images/tresor_sharepool.png">
 
 Entwurf, Implementierung und Qualitätssicherung einer webbasierten Software zur Projektverwaltung für die [Tresor TV GmbH](http://tresor.tv).

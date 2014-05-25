@@ -7,6 +7,8 @@ categories: javascript
 
 # Shopcaching #
 
+<span class="post-date">05/2012 - 07/2012</span>
+
 Entwicklung einer Online/App-Plattform für reale Ladengeschäfte. Entwurf, Implementierung und Qualitätssicherung der Web- sowie der mobilen Anwendung.
 
 Eine Zusammenarbeit mit den [Projekthelden](http://projekthelden.de).

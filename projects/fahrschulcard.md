@@ -7,6 +7,8 @@ categories: javascript
 
 # Fahrschulcard #
 
+<span class="post-date">10/2013 - 06/2014</span>
+
 TODO
 
 ## Technologien ##

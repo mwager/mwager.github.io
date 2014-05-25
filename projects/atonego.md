@@ -7,6 +7,8 @@ categories: javascript
 
 # AtOneGo #
 
+<span class="post-date">02/2013 - 07/2013 (Eigenentwicklung)</span>
+
 <div class="center">
     <a href="http://at-one-go.com?lang=de">
         <img src="/images/aog/app-icon.png" style="max-width: 200px;">

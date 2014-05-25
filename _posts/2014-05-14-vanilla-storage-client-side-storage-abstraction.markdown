@@ -66,7 +66,6 @@ Tipp: In Chrome kann man in den Dev-Tools unter dem `Resources`-Tab die WebSQL- 
 Code und Dokumentation ist auf Github [verfügbar](https://github.com/mwager/VanillaStorage), Feedback, Bugreports etc. natürlich herzlich Willkommen.
 
 
-
 ## Quellen und weiterführende Informationen ##
 
 * [1] [http://dev-test.nemikor.com/web-storage/support-test/](http://dev-test.nemikor.com/web-storage/support-test/)

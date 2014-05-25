@@ -7,6 +7,8 @@ categories: javascript
 
 # Gruppe3 CMS #
 
+<span class="post-date">01/2014 - 04/2014</span>
+
 Entwurf, Implementierung und Qualitätssicherung einer individuellen Content Management Lösung für die <a target="_blank" href="http://gruppe3.de">Gruppe3 GmbH</a>.
 
 
