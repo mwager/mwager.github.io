@@ -25,12 +25,15 @@ permalink: pretty
 # custom ...
 highlighter: pygments
 timezone: Europe/Berlin
+
+# NOTE: github overwrites this to true, so we can use it as "production" env flag:
 safe: false
 lsi: false
 
 # changed via grunt to `prod` before ftp upload,
 # after uploading it will be changed back again.
-env: "dev"
+# SEE safe: false !
+# env: "dev"
 
 # exclude file while running "jekyll build"
 # NOTE: .htaccess manually
