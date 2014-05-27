@@ -45,7 +45,7 @@ Aktualisierungen am User Interface können hier also direkt durchgeführt werden
 
 <iframe width="100%" height="300" src="http://jsfiddle.net/8RwQV/1/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-<a class="jsbin-embed" href="https://jsbin.com/dumaxovo/1/embed?output">JS Bin</a><script src="https://static.jsbin.com/js/embed.js"></script>
+<a class="jsbin-embed" href="https://jsbin.com/dumaxovo/1/embed?output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
 Im [Demo als JSFiddle](http://jsfiddle.net/8RwQV/1/) kann man das Problem sehr schön nachvollziehen. Man kann dort sehen wie beim Klick auf den ersten Button dieser kurz hängen bleibt und die Ausgabe des Infotexts sowie der Primzahlen  dann in etwa zeitgleich geschient. Je größer der Wert `N`, desto länger hängt der Button.
 Bei Klick auf den zweiten Button wird allerdings wie gewünscht zuerst der Infotext angezeigt, dann erst erfolgt die Berechnung mit Ausgabe.
