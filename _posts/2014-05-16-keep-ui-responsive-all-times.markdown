@@ -8,7 +8,7 @@ categories: javascript
 <em>
 Ein kleiner Trick um die Benutzeroberfläche bei Benutzereingaben auch bei rechenintensiven Aufgaben benutzbar zu halten. Der Trick dabei ist recht einfach: man verwendet Timer um den UI-Thread des Browsers nicht zu blockieren.
 <br><br>
-<strong>tl;dr</strong> <a href="http://jsfiddle.net/8RwQV/1/">Demo</a> als JSFiddle.
+<strong>tl;dr</strong> <a href="http://jsbin.com/dumaxovo/1/edit">Demo</a> auf jsbin.com.
 </em>
 
 ## The code ##
@@ -43,11 +43,11 @@ Aktualisierungen am User Interface können hier also direkt durchgeführt werden
 
 ### Demo ###
 
-<iframe width="100%" height="300" src="http://jsfiddle.net/8RwQV/1/embedded/result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
+<!-- hmm not possible over ssl on gh-pages )-:
 <a class="jsbin-embed" href="https://jsbin.com/dumaxovo/1/embed?output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+-->
 
-Im [Demo als JSFiddle](http://jsfiddle.net/8RwQV/1/) kann man das Problem sehr schön nachvollziehen. Man kann dort sehen wie beim Klick auf den ersten Button dieser kurz hängen bleibt und die Ausgabe des Infotexts sowie der Primzahlen  dann in etwa zeitgleich geschient. Je größer der Wert `N`, desto länger hängt der Button.
+Im [Demo auf JSBin.com](http://jsbin.com/dumaxovo/1/edit) kann man das Problem sehr schön nachvollziehen. Man kann dort sehen wie beim Klick auf den ersten Button dieser kurz hängen bleibt und die Ausgabe des Infotexts sowie der Primzahlen  dann in etwa zeitgleich geschient. Je größer der Wert `N`, desto länger hängt der Button.
 Bei Klick auf den zweiten Button wird allerdings wie gewünscht zuerst der Infotext angezeigt, dann erst erfolgt die Berechnung mit Ausgabe.
 
 
