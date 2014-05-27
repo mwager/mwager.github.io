@@ -41,7 +41,7 @@ Mit Hilfe des Aufrufs `setTimeout` wird die Funktion `__timerHandler()` in die W
 
 Aktualisierungen am User Interface können hier also direkt durchgeführt werden, da kein JavaScript Code den UI Thread blockiert. In Zeile 1 wird die Funktion `__clickHandler()` in die Warteschlange gelegt. Zum Zeitpunkt dessen Ausführung (beim Klick durch den Benutzer) werden nun also zuerst Änderungen am User Interface durchgeführt und danach ein weiterer Task (`__timerHandler()`) registriert. Der Click-Handler wird beendet und der Browser kann die Änderungen am User Interface durchführen __bevor__ die Funktion `doHeavyStuff()` aufgerufen wird.
 
-### Demo ###
+## Demo ##
 
 <!-- hmm not possible over ssl on gh-pages )-:
 <a class="jsbin-embed" href="https://jsbin.com/dumaxovo/1/embed?output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
