@@ -13,10 +13,11 @@ categories: javascript
     <img src="/images/flirtsaver.gif">
 </a>
 
-<blockquote>
+
 <strong>flirtsaver® ist Micro-Dating mit Herz.</strong><br/>
 <em>Flirten mit Stil, Anmachen mit Niveau oder geschmackvolles Anbaggern? Mit flirtsaver® kannst Du Dein Herz teilen, verschenken und online weiter flirten! Dein Flirt ist gesichert.</em>
-</blockquote>
+
+<hr>
 
 Entwicklung und Qualitätssicherung einer echtzeitfähigen Webapplikation mit Node.js. Eine Zusammenarbeit mit der [Team & Marke UG](http://teamundmarke.de).
 
@@ -26,9 +27,19 @@ Weitere Informationen auf [www.flirtsaver.de](http://www.flirtsaver.de).
 
 ### Frontend ###
 
-Single Page App mit Backbone.js, Require.js, Testem + Mocha, CasperJS
+Single Page App mit:
+
+* [Backbone.js](http://backbonejs.org/)
+* [Require.js](http://requirejs.org/)
+* [Mocha](http://visionmedia.github.io/mocha/)
+* [Testem](https://github.com/airportyh/testem)
+* [CasperJS](http://casperjs.org/)
 
 ### Backend ###
 
-Node.js, Express, MongoDB, Mongoose, SocketIO, Mocha
+* [Node.js](http://nodejs.org/) + [Express Webapplication Framework](http://expressjs.com/) + [MongoDB](http://www.mongodb.org/)
+* [Mongoose](http://mongoosejs.com/)
+* [SocketIO](http://socket.io/)
+* [Mocha](http://visionmedia.github.io/mocha/)
+
 

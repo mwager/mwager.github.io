@@ -19,11 +19,19 @@ Eine Zusammenarbeit mit den [Projekthelden](http://projekthelden.de)
 
 ### Frontend ###
 
-Single Page App mit jQueryMobile & Backbone.js, Require.js, Testem + Mocha, CasperJS
+Single Page App mit:
+
+* [jQueryMobile](http://jquerymobile.com/) + [Backbone.js](http://backbonejs.org/)
+* [Require.js](http://requirejs.org/)
+* [Mocha](http://visionmedia.github.io/mocha/)
+* [Testem](https://github.com/airportyh/testem)
+* [CasperJS](http://casperjs.org/)
 
 ### Backend ###
 
-Laravel PHP-Framework (REST API), MySQL
+* [Laravel PHP Framework](http://laravel.com/) (REST API)
+* [MySQL](http://www.mysql.de/)
+* [PHPUnit](http://phpunit.de/)
 
 ## Funktionen ##
 

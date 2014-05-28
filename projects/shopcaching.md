@@ -17,12 +17,20 @@ Eine Zusammenarbeit mit den [Projekthelden](http://projekthelden.de).
 
 ### Webanwendung
 
-* REST API auf Basis von FuelPHP, MySQL
-* HTML5-Boilerplate, jQuery, RequireJS, QUnit, PhantomJS/CasperJS
+* [FuelPHP Framework](http://fuelphp.com/) (REST API)
+* [MySQL](http://www.mysql.de/)
+* [HTML5-Boilerplate](http://h5bp.com/)
+* [jQuery](http://jquery.com/)
+* [Require.js](http://requirejs.org/)
+* [QUnit](http://qunitjs.com/)
+* [PhantomJS](http://phantomjs.org/)
+* [CasperJS](http://casperjs.org/)
 
 ### App ###
 
-* Titanium Appcelerator, Jasmine
+* [Appcelerator Titanium](http://www.appcelerator.com/titanium/) (Hybrid Mobile
+Development Environment)
+* [Jasmine](http://jasmine.github.io/)
 
 Weitere Informationen auf [www.shopcaching.com](http://www.shopcaching.com).
 

@@ -16,14 +16,18 @@ Entwurf, Implementierung und Qualitätssicherung einer individuellen Content Man
 
 ### Frontend ###
 
-jQuery, Backbone.js, Twitter Bootstrap (v3)
+* [jQuery](http://jquery.com/)
+* [Backbone.js](http://backbonejs.org/)
+* [Twitter Bootstrap (v3)](http://getbootstrap.com/)
 
 <img src="/images/gruppe3-frontend.png" class="shadow">
 
 
 ### Backend ###
 
-Laravel 4, MySQL, PHPUnit
+* [Laravel PHP Framework](http://laravel.com/)
+* [MySQL](http://www.mysql.de/)
+* [PHPUnit](http://phpunit.de/)
 
 <img src="/images/gruppe3-backend.png" class="shadow">
 
