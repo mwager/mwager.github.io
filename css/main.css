@@ -74,16 +74,18 @@
 html, body { height: 100%; }
 
 body {
-  font-family: 'Open-Sans', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
-
-  /*font-family: Open Sans, Helvetica, Arial, sans-serif;*/
-
   font-size: 14px;
-  line-height: 1.5;
-  font-weight: 300;
+  line-height: 1.6; /**** line-height: 1.5  oder 22px; ****/
   background-color: #fff;
 }
+
+/* custom font: naah looks good... tom? im head einbinden!
+h1, h2, h3, h4, h5, h6, p, em, blockquote, small, strong, a {
+  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+} */
 
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
