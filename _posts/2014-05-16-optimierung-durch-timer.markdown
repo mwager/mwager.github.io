@@ -37,7 +37,7 @@ $('#some-button').on('click', function __clickHandler() {
 });
 {% endhighlight %}
 
-Mit Hilfe des Aufrufs `setTimeout` wird die Funktion `__timerHandler()` in die Warteschlange des UI-Threads des Browsers gelegt, d.h. wir registrieren ein Event, welches ab Zeitpunkt des Aufrufs gemessen in 250 Millisekunden ausgeführt werden soll. Das muss jedoch nicht unbedingt exakt sein, den jeder Task kann erst ausgeführt werden wenn der vorherige beendet ist.
+Mit Hilfe des Aufrufs `setTimeout` wird die Funktion `__timerHandler()` in die Warteschlange des UI-Threads des Browsers gelegt, d.h. wir registrieren ein Event, welches ab Zeitpunkt des Aufrufs gemessen in 250 Millisekunden ausgeführt werden soll. Das muss jedoch nicht unbedingt exakt sein, denn jeder Task kann erst ausgeführt werden wenn der Vorherige beendet ist.
 
 Aktualisierungen am User Interface können hier also direkt durchgeführt werden, da kein JavaScript Code den UI Thread blockiert. In Zeile 1 wird die Funktion `__clickHandler()` in die Warteschlange gelegt. Zum Zeitpunkt dessen Ausführung (beim Klick durch den Benutzer) werden nun also zuerst Änderungen am User Interface durchgeführt und danach ein weiterer Task (`__timerHandler()`) registriert. Der Click-Handler wird beendet und der Browser kann die Änderungen am User Interface durchführen __bevor__ die Funktion `doHeavyStuff()` aufgerufen wird.
 

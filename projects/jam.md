@@ -5,11 +5,10 @@ date:   2011-08-10
 categories: eigenentwicklung
 ---
 
-# jAM #
+# jAM - automatic music transcription #
 
 <span class="post-date">05/2011 - 08/2011 (Bachelorarbeit)</span>
 
-## automatic music transcription ##
 
 "jAM" ist eine freie Musikanwendung, welche die automatische Transkription einer einstimmigen Audioaufnahme ermöglicht. Man spielt eine Melodie ein und bekommt eine Ausgabe in Form von Noten und MIDI.
 

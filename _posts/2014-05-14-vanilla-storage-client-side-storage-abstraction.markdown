@@ -45,7 +45,7 @@ _Aber WebSQL ist doch als veraltet eingestuft?_ Stimmt, die starke Verbreitung z
 
 ## VanillaStorage.js ##
 
-Um diese Probleme zu umgehen habe ich ein einfaches Tool zur Abstraktion der verfügbaren Speichermechanismen geschrieben. `VanillaStorage.js` ermöglicht die browserübergreifende Persistenz von Daten im key/value-Style. IndexedDB wird bevorzugt, sofern jedoch nicht verfügbar wird WebSQL Support geprüft und ggf. verwendet. Sind beide Methoden aus irgendwelchen Gründen nicht verfügbar (zB IE <= 9) oder geht beim Initialisieren etwas schief, so wird dem Initialisierungs-Callback ein Fehler übergeben. VanillaStorage.js ist also im Endeffekt nichts weiter als ein Frontend der dahinterliegenden Klassen `IndexDBStorage` und `WebSQLStorage`, welche beide das selbe öffentliche Interface implementieren - aber auch selbstständig verwendet werden können.
+Um diese Probleme zu umgehen habe ich ein einfaches Tool zur Abstraktion der verfügbaren Speichermechanismen geschrieben. `VanillaStorage.js` ermöglicht die browserübergreifende Persistenz von Daten im key/value-Style. IndexedDB wird bevorzugt, sofern jedoch nicht verfügbar wird WebSQL Support geprüft und ggf. verwendet. Sind beide Methoden aus irgendwelchen Gründen nicht verfügbar (zB IE <= 9 oder Browser im private Mode) oder geht beim Initialisieren etwas schief, so wird dem Initialisierungs-Callback ein Fehler übergeben. VanillaStorage.js ist also im Endeffekt nichts weiter als ein Frontend der dahinterliegenden Klassen `IndexDBStorage` und `WebSQLStorage`, welche beide das selbe öffentliche Interface implementieren - aber auch selbstständig verwendet werden können.
 
 
 ## Einsatz in der Praxis ##
