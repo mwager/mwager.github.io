@@ -13,7 +13,7 @@ layout: default
     <section class="post">
         <header class="post-header">
             <span class="post-date">01/2014 - 04/2014</span>
-            <a href="/projects/gruppe3/">Gruppe3 CMS</a>
+            <h2 class="post-headline"><a href="/projects/gruppe3/">Gruppe3 CMS</a></h2>
         </header>
         <div class="post-description">
             <p>
@@ -27,7 +27,7 @@ layout: default
     <section class="post">
         <header class="post-header">
             <span class="post-date">02/2013 - 07/2013</span>
-            <a href="/projects/atonego/">AtOneGo</a>
+            <h2 class="post-headline"><a href="/projects/atonego/">AtOneGo</a></h2>
         </header>
 
         <div class="post-description">
@@ -43,7 +43,7 @@ layout: default
     <section class="post">
         <header class="post-header">
             <span class="post-date">01/2013 - 05/2013</span>
-            <a href="/projects/sharepool/">Sharepool - webbasierte Projektverwaltung</a>
+            <h2 class="post-headline"><a href="/projects/sharepool/">Sharepool - webbasierte Projektverwaltung</a></h2>
         </header>
         <div class="post-description">
             <p>Entwurf, Implementierung und Qualitätssicherung einer webbasierten Software zur
@@ -56,7 +56,7 @@ layout: default
     <section class="post">
         <header class="post-header">
             <span class="post-date">01/2013 - 05/2013</span>
-            <a href="/projects/flirtsaver/">Flirtsaver - Micro-Dating mit Herz</a>
+            <h2 class="post-headline"><a href="/projects/flirtsaver/">Flirtsaver - Micro-Dating mit Herz</a></h2>
         </header>
         <div class="post-description">
             <p>Entwicklung einer echtzeitfähigen Webapplikation mit Node.js. Webauftritt unter
@@ -67,7 +67,7 @@ layout: default
     <section class="post">
         <header class="post-header">
             <span class="post-date">05/2012 - 07/2012</span>
-            <a href="/projects/shopcaching/">Shopcaching - Build your own real shopping world!</a>
+            <h2 class="post-headline"><a href="/projects/shopcaching/">Shopcaching - Build your own real shopping world!</a></h2>
         </header>
         <div class="post-description">
             <p>Entwicklung einer Online/App-Plattform für reale Ladengeschäfte. Webauftritt unter
@@ -79,7 +79,7 @@ layout: default
     <section class="post">
         <header class="post-header">
             <span class="post-date">05/2011 - 08/2011</span>
-            <a href="/projects/jam/">jAM - automatic music transcription</a>
+            <h2 class="post-headline"><a href="/projects/jam/">jAM - automatic music transcription</a></h2>
         </header>
         <div class="post-description">
             <p>Software zur automatischen Transkription von einstimmigem Audiomaterial.</p>
@@ -95,9 +95,11 @@ layout: default
         <section class="post featured">
             <header class="post-header">
                 <span class="post-date">19. August 2013</span>
-                <a class="post-link" href="http://phpmagazin.de/artikel/Moderne-JavaScript-Applikationen-ein-Ueberblick">
-                    PHPMagazin: Moderne JavaScript-Applikationen – ein Überblick
-                </a>
+                <h2 class="post-headline">
+                    <a href="http://phpmagazin.de/artikel/Moderne-JavaScript-Applikationen-ein-Ueberblick">
+                        PHPMagazin: Moderne JavaScript-Applikationen – ein Überblick
+                    </a>
+                </h2>
             </header>
 
             <div class="post-description">
@@ -114,7 +116,7 @@ layout: default
         <section class="post">
             <header class="post-header">
                 <span class="post-date jdate">{{ post.date | date: "%-d. %m. %Y" }}</span>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <h2 class="post-headline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
             </header>
             <div class="post-description">
                 {{ post.excerpt }}

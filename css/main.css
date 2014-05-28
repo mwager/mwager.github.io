@@ -327,6 +327,11 @@ footer .wrap {
 
 .home h1 { margin-bottom: 25px; }
 
+/* we have h2s with links inside for more semantic */
+.home .post-headline {
+  font-size: 14px;
+  text-transform: none;
+}
 
 /* max width */
 .post-header h1,
