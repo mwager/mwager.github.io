@@ -45,14 +45,14 @@ _Aber WebSQL ist doch als veraltet eingestuft?_ Stimmt, die starke Verbreitung z
 
 ## VanillaStorage.js ##
 
-Um diese Ganzen Probleme zu umgehen habe ich eine einfaches Tool zur Abstraktion der verfügbaren Speichermechanismen geschrieben. `VanillaStorage.js` ermöglicht die Browserübergreifende key/value-Speicherung von Daten. IndexedDB wird bevorzugt, sofern jedoch nicht verfügbar wird WebSQL Support geprüft und ggf. verwendet. Sind beide Methoden aus irgendwelchen Gründen nicht verfügbar (zB IE <= 9) oder geht beim Initialisieren etwas schief, so wird dem Initialisierungs-Callback ein Fehler übergeben. VanillaStorage.js ist also im Endeffekt nichts weiter als ein Frontend der dahinterliegenden Klassen `IndexDBStorage` und `WebSQLStorage`, welche beide das selbe öffentliche Interface implementieren - aber auch selbstständig verwendet werden können.
+Um diese Probleme zu umgehen habe ich ein einfaches Tool zur Abstraktion der verfügbaren Speichermechanismen geschrieben. `VanillaStorage.js` ermöglicht die browserübergreifende Persistenz von Daten im key/value-Style. IndexedDB wird bevorzugt, sofern jedoch nicht verfügbar wird WebSQL Support geprüft und ggf. verwendet. Sind beide Methoden aus irgendwelchen Gründen nicht verfügbar (zB IE <= 9) oder geht beim Initialisieren etwas schief, so wird dem Initialisierungs-Callback ein Fehler übergeben. VanillaStorage.js ist also im Endeffekt nichts weiter als ein Frontend der dahinterliegenden Klassen `IndexDBStorage` und `WebSQLStorage`, welche beide das selbe öffentliche Interface implementieren - aber auch selbstständig verwendet werden können.
 
 
 ## Einsatz in der Praxis ##
 
-Das Tool entstand hauptsächlich weil ich in einem Projekt eine einfache key/value basierte Storage Lösung benötigt habe, welche wirklich Crossbrowser (ab IE9) lauffähig ist. VanilaStorage.js kann sogar ohne Weiteres in Cordova/Phonegap verwendet werden.
+Das Tool entstand dadurch, dass ich in einem Projekt eine einfache key/value basierte Storage-Lösung benötigt habe, welche wirklich crossbrowser (ab IE10) lauffähig ist. VanillaStorage.js kann sogar ohne Weiteres in Cordova/Phonegap verwendet werden!
 
-Zum aktuellen Zeitpunkt läuft `Vanilla.js` in einer App im __Beta-Status im Produktivbetrieb mit ca. 15000 Zugriffen pro Tag__ - und das erstaunlich stabil! __(TODO! zahlen tobe?)__ In der App müssen vor allem sehr große JSON Objekte für Offline-Support (i.d.R. einmalig) persistiert werden. Datensätze zu durchsuchen oder einzeln zu aktualisieren war keine Anforderungen weshalb dafür bis jetzt auch keine Unterstützung vorhanden ist. Simpler `key/value Style`.
+Zum aktuellen Zeitpunkt (Mai 2014) läuft `Vanilla.js` in einer App im __Beta-Status im Produktivbetrieb mit >5000 Zugriffen pro Tag__ - und das erstaunlich stabil! In der App müssen vor allem sehr große JSON Objekte für Offline-Support (i.d.R. einmalig) persistiert werden. Datensätze zu durchsuchen oder einzeln zu aktualisieren war keine Anforderung weshalb dafür bis jetzt auch keine Unterstützung vorhanden ist. Eben einfach nur `key/value`-Style - nicht mehr und nicht weniger.
 
 
 ### Ausprobieren? ###
@@ -71,6 +71,5 @@ Code und Dokumentation ist auf Github [verfügbar](https://github.com/mwager/Van
 * [1] [http://dev-test.nemikor.com/web-storage/support-test/](http://dev-test.nemikor.com/web-storage/support-test/)
 * [http://nolanlawson.com/2014/04/26/web-sql-database-in-memoriam/](http://nolanlawson.com/2014/04/26/web-sql-database-in-memoriam/)
 * [http://blog.oharagroup.net/post/16394604653/a-performance-comparison-websql-vs-indexeddb](http://blog.oharagroup.net/post/16394604653/a-performance-comparison-websql-vs-indexeddb)
-
 * [https://hacks.mozilla.org/2014/02/localforage-offline-storage-improved/](https://hacks.mozilla.org/2014/02/localforage-offline-storage-improved/)
 * [PouchDB](http://pouchdb.com/)
