@@ -5,9 +5,8 @@ date:   2014-01-17 19:17:42
 categories: default
 ---
 
-<em>
 Some experiments using jekyyl...
-</em>
+
 
 ## Syntax Highlighting
 

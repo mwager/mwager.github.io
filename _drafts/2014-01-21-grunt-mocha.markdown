@@ -5,9 +5,7 @@ date:   2014-01-21 13:43:47
 categories: javascript
 ---
 
-<em>
 Blogpost über Grunt + XXX (zB grunt + mocha headless -> advanced: via testem in real browsers)
-</em>
 
 TODO:
     * ganz kurze einführung wie sindre in all seinen grunt plugins,

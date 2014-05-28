@@ -5,11 +5,10 @@ date:   2014-04-14 15:17:42
 categories: javascript
 ---
 
-<em>
 [HTML5 Storage](http://www.html5rocks.com/en/features/storage) ist verwirrend.
 LocalStorage ist ok, wenn man mit 2-5MB an Speicherplatz leben kann [1]. Erfordert eine Software allerdings mehr, so steht man erstmal recht blöd da, denn auf iOS und Android existiert nur die als @deprecated eingestufte WebSQL Datenbank, will man allerdings auch Firefox und Internet Explorer
 (beide auch mobile) unterstützen, muss man allerdings IndexedDB verwenden, welche auf iOS und teilweise Android (noch) nicht unterstützt wird. Aus diesen Gründen habe ich meine eigene kleine Lib zur Abstraktion der dahinterliegenden Storagetechniken geschrieben: <a href="https://github.com/mwager/VanillaStorage" target="_blank" >VanillaStorage.js</a>.
-</em>
+
 
 <div class="fancy-images-in-grid pure-g">
     <div class="pure-u-1-3">

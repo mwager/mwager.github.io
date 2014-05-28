@@ -74,7 +74,11 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 300;
+
+  /*font-family: Open Sans, Helvetica, Arial, sans-serif;*/
+
   font-size: 14px;
   line-height: 1.5;
   font-weight: 300;
@@ -92,7 +96,7 @@ h2 { font-size: 22px; }
 h3 { font-size: 19px; }
 h4 { font-size: 17px; }
 h5 { font-size: 15px; }
-h6 { font-size: 14px; }
+h6 { font-size: 13px; }
 
 h2 small {
   float: right;
@@ -115,7 +119,7 @@ a:visited { color: #205caa; }
 /* html5 links */
 a         { color: #f16529; text-decoration: none; }
 /*a:hover   { color: #333; text-decoration: underline; }*/
-a:visited { color: #e44d26; }
+/*a:visited { color: #e44d26; } weglassen oder richtig deutlich (rot sieht nich gut aus)*/
 
 
 /*#layout {}*/
@@ -319,7 +323,13 @@ footer .wrap {
 
 .home h1 { margin-bottom: 25px; }
 
-p, blockquote {
+
+/* max width */
+.post-header h1,
+.post-description p,
+.post-content p,
+.post-content blockquote,
+.post-content .highlight pre {
   max-width: 740px;
 }
 
@@ -330,13 +340,15 @@ p, blockquote {
   padding:0px;
 }
 .home .post.featured {
-  background-color: #DFFDEA;
+  background-color: #2d2d2d;
   border:1px solid #ddd;
   border-radius: 5px;
   padding:5px;
   margin:30px 0;
 }
-
+.home .post.featured p {
+  color: #F8F8F8;
+}
 /* also used on project pages! */
 .post-date {
     color: #999;
@@ -687,7 +699,7 @@ h3 {
     }
 
     .header {
-      margin: 80% 2em 0;
+      margin: 55px 2em 0;
     }
 
     .sidebar {

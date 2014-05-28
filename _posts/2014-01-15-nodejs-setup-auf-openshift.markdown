@@ -5,9 +5,7 @@ date:   2014-01-15 13:02:17
 categories: javascript
 ---
 
-<em>
 Dieser Post zeigt, wie man eine Node.js Applikation mit dem freien Account bei [Openshift](https://openshift.com) aufsetzen kann, mit Git-Deployment, SSH-Zugang uvm. In Verbindung mit einer eigenen Domain eignet sich das hervorragend für das Hosting kleinerer Projekte, Kundendemonstrationen, als Testumgebung oder Spielwiese.
-</em>
 
 <img class="openshift-asciimo" src="/images/node/node-openshift-2.png">
 <small class="image-cap">Cartman als "asciimo" ausgeliefert via Node.js @ Openshift <a href="#pic1">[Quelle]</a></small>

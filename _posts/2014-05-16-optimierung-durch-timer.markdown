@@ -5,11 +5,10 @@ date:   2014-05-16 16:43:12
 categories: javascript
 ---
 
-<em>
 Ein kleiner Trick um die Benutzeroberfläche bei Benutzereingaben auch bei rechenintensiven Aufgaben benutzbar zu halten. Der Trick dabei ist recht einfach: man verwendet Timer um den UI-Thread des Browsers nicht zu blockieren.
 <br><br>
 <strong>tl;dr</strong> <a href="http://jsbin.com/dumaxovo/1/edit">Demo</a> auf jsbin.com.
-</em>
+
 
 ## The code ##
 

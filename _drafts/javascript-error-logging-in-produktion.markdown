@@ -5,9 +5,8 @@ date:   2014-01-17 19:17:42
 categories: javascript
 ---
 
-<em>
 Wie fängt man Javascript-Fehler bzw kommt diese überhaupt mit? Die Benutzer einer WebApplikation werden sich kaum die Mühe machen, Fehler zu berichten. Dieser Post zeigt einige Möglichkeiten der server-seitigen Loggings für JavaScript Applikationen, erläutert Probleme usw blaaaaaaaaa
-</em>
+
 
 hmm erfodert erstmal derb recherche wat es so gibt...
 evtl UNSERE erfahrungen beschreiben !
