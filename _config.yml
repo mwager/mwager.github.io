@@ -27,7 +27,12 @@ timezone: Europe/Berlin
 
 # NOTE: github overwrites this to true, so we can use it as "production" env flag:
 safe: false
+
+# on mwager.de we use this: (replaced to "prod" by grunt deploy)
+env: "dev"
+
 lsi: false
+
 
 # exclude file while running "jekyll build"
 # NOTE: .htaccess manually

@@ -6,7 +6,7 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    {% if site.safe %}
+    {% if site.safe || site.env == 'prod' %}
     <base href="{{ '' | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
 
@@ -15,7 +15,7 @@
 
     <link rel="shortcut icon" href="/images/html5.png" type="image/x-icon">
 
-    {% if site.safe %}
+    {% if site.safe || site.env == 'prod' %}
     <link rel="stylesheet" href="{{ "/build/main.min.css" | prepend: site.baseurl }}">
     {% else %}
     <link rel="stylesheet" href="{{ "/css/pure.css" | prepend: site.baseurl }}">
