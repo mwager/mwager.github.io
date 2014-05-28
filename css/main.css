@@ -79,6 +79,7 @@ body {
   font-size: 14px;
   line-height: 1.6; /**** line-height: 1.5  oder 22px; ****/
   background-color: #fff;
+  color:#444;
 }
 
 /* custom font: naah looks good... tom? im head einbinden!
@@ -134,11 +135,11 @@ a         { color: #f16529; text-decoration: none; }
  * Customize the background color to match your design.
  */
 ::-moz-selection {
-  background: #f16529;
+  background: #F8F8F8;
   text-shadow: none;
 }
 ::selection {
-  background: #f16529;
+  background: #F8F8F8;
   text-shadow: none;
 }
 
@@ -664,11 +665,6 @@ h3 {
     border-radius: 50px;
     float: right;
     margin-left: 1em;
-}
-.post-description {
-    /*font-family: Georgia, "Cambria", serif;*/
-    color: #444;
-    line-height: 1.5em;
 }
 
 .post-category {
