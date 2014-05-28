@@ -19,6 +19,10 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    {% if site.safe %}
+    <base href="{{ '' | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
 
