@@ -339,6 +339,8 @@ footer .wrap {
 /* max width */
 .post-header h1,
 .post-description p,
+.project-content p,
+.project-content blockquote,
 .post-content p,
 .post-content blockquote,
 .post-content .highlight pre {

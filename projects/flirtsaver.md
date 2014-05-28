@@ -41,5 +41,3 @@ Single Page App mit:
 * [Mongoose](http://mongoosejs.com/)
 * [SocketIO](http://socket.io/)
 * [Mocha](http://visionmedia.github.io/mocha/)
-
-
