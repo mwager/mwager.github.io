@@ -7,8 +7,6 @@ description: "software engineering für web & mobile"
 keywords: javascript php software engineering german augsburg münchen munich mwager blog freelance web developer
 baseurl: ""
 url: "https://mwager.de"
-enforce_ssl: mwager.de
-enforce_ssl_github: mwager.github.io
 
 # source: ./
 
