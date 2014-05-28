@@ -319,6 +319,10 @@ footer .wrap {
 
 .home h1 { margin-bottom: 25px; }
 
+p, blockquote {
+  max-width: 740px;
+}
+
 .home .post-container {
   /*border:1px solid #ddd;
   border-radius: 5px;*/
