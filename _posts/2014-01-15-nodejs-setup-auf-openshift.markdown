@@ -85,4 +85,4 @@ Nach Änderungen im Repo reicht nun ein `git push` und die neue Version ist live
 
 * [www.openshift.com](https://www.openshift.com/developers/node-js)
 * [OpenShift Origin Documentation](http://openshift.github.io/documentation/oo_system_architecture_guide.html)
-* <div id="pic1">[Bild-1] [Cartman-Bild](http://i.imgur.com/kmbjB.png)</div>
+* <div id="pic1">[Bild-1] <a href="http://i.imgur.com/kmbjB.png">Cartman-Bild</a></div>
