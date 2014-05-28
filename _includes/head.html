@@ -1,4 +1,17 @@
 <head>
+    {% if site.enforce_ssl %}
+    <!--
+    redirect users to the https version of the website.
+    but: only check when on the production domain, as set in _config.yml.
+    see https://konklone.com/post/github-pages-now-supports-https-so-use-it
+    -->
+    <script type="text/javascript">
+    var enforce = "{{ site.enforce_ssl }}", enforce_gh = "{{ site.enforce_ssl_github }}";
+    if ((enforce == window.location.host || enforce_gh == window.location.host) && (window.location.protocol != "https:"))
+      window.location = window.location.toString().replace(/^http:/, "https:");
+    </script>
+    {% endif %}
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
