@@ -5,14 +5,10 @@ layout: none
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
-    <author>
-      <name>Michael Wager</name>
-    </author>
-    <rights>Copyright (c) 2014, Michael Wager; all rights reserved.</rights>
     <description>{{ site.description | xml_escape }}</description>
-    <updated>{{ site.time | date_to_xmlschema }}</updated>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    <!-- <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" /> -->
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: 'http://mwager.de' }}" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
