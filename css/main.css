@@ -159,6 +159,14 @@ img.shadow {
   box-shadow: 3px 3px 5px #888;
 }
 
+/* TODO scale via gimp!
+img.project-thumb {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  display: block;
+}*/
+
 /*
 .wrap:before,
 .wrap:after { content:""; display:table; }
