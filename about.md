@@ -9,13 +9,9 @@ permalink: /about/
 
 Im Jahr 2011 habe ich das Studium der Informatik an der Hochschule Augsburg mit den Schwerpunkten Software Engineering und Open Source erfolgreich abgeschlossen und lebe seitdem in Augsburg. Ich bin sportlich, spiele seit über 10 Jahren Gitarre und kann auch auf etliche Jahre Banderfahrung zurückblicken.
 
-<!--
-Desweiteren bin ich immer auf der Suche nach neuen, interessanten Tools und Technologien um das Web ein wenig besser zu machen.
--->
+Ich arbeite als freier Webentwickler mit Schwerpunkt Frontend- bzw. JavaScript Entwicklung. Dabei unterstütze ich meine Kunden von der Konzeption bis zur Auslieferung und achte stets darauf, zeitgemäße Technologien verantwortungsbewusst einzusetzen sowie eine sinnvolle Benutzerführung zu ermöglichen.
 
-Ich arbeite als freier Webentwickler mit Schwerpunkt Frontend- bzw. JavaScript Entwicklung. Dabei unterstütze ich von der Konzeption bis zur Auslieferung und achte stets darauf, zeitgemäße Technologien verantwortungsbewusst einzusetzen sowie eine sinnvolle Benutzerführung zu ermöglichen.
-
-Besonders hohen Wert lege ich auf Methoden der Qualitätssicherung wie testgetriebene Entwicklung, den Einsatz von Versionskontrolle oder Tools zur statischen Codeanalyse.
+Besonders hohen Wert lege ich auf Methoden der Qualitätssicherung wie testgetriebene Entwicklung, den Einsatz von Versionskontrolle oder Tools zur statischen Codeanalyse. Außerdem bin ich überzeugter Benutzer von Open-Source Software und <a target="_blank" href="https://github.com/mwager">engagiere mich</a> auch in diesem Bereich sofern meine Zeit es zulässt.
 
 
 ## Kontakt ##
