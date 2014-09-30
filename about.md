@@ -18,4 +18,6 @@ Besonders hohen Wert lege ich auf Methoden der Qualitätssicherung wie testgetri
 
 Gute Software entsteht meißtens am Besten in kleinen, motivierten Teams. Ich habe Spaß an dem was ich mache. Interesse an einer Zusammenarbeit? Zögern Sie nicht mich anzurufen ({{ site.tel_nr }}) oder mir eine <a href="mailto:mail@mwager.de">E-Mail</a> zu schreiben.
 
+Michael Wager<br>
+Morellstrasse 27 · 86159 Augsburg<br>
 <a href="mailto:{{ site.email }}">{{ site.email }}</a> (<a href="https://mwager.de/mwager.asc">PGP public key</a>)
