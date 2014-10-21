@@ -59,6 +59,6 @@ sed -i '' 's/android:minSdkVersion="10"/android:minSdkVersion="19"/g' $MANIFEST
 echo ">>>>> OK, replaced the sdk versions."
 {% endhighlight %}
 
-Nach Kompilierung der Android-App können somit nun die SDK Versionen angepasst werden. Es existiert sogar ein grunt-Task, welcher dieses Problem ähnlich löst: [grunt-phonegap](https://github.com/logankoester/grunt-phonegap)
+Scheinbar ist dieses Problem nichts Neues für die Phonegap-Community: Es existiert sogar ein grunt-Task, welcher dieses Problem ähnlich löst: [grunt-phonegap](https://github.com/logankoester/grunt-phonegap)
 
 Hast du eine bessere Lösung? Dann würde ich mich über einen Kommentar sehr freuen!
