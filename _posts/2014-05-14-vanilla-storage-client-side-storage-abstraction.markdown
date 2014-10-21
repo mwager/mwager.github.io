@@ -9,6 +9,8 @@ categories: javascript
 LocalStorage ist ok, wenn man mit 2-5MB an Speicherplatz leben kann [1]. Erfordert eine Software allerdings mehr, so steht man erstmal recht blöd da, denn auf iOS und Android existiert nur die als @deprecated eingestufte WebSQL Datenbank, will man allerdings auch Firefox und Internet Explorer
 (beide auch mobile) unterstützen, muss man allerdings IndexedDB verwenden, welche auf iOS und teilweise Android (noch) nicht unterstützt wird. Aus diesen Gründen habe ich meine eigene kleine Lib zur Abstraktion der dahinterliegenden Storagetechniken geschrieben: <a href="https://github.com/mwager/VanillaStorage" target="_blank" >VanillaStorage.js</a>.
 
+__UPDATE: Da ich nun [localForage](http://mozilla.github.io/localForage/) von Mozilla verwende, habe ich jegliche Wartung für dieses Tool eingestellt!__
+
 
 <div class="fancy-images-in-grid pure-g">
     <div class="pure-u-1-3">
