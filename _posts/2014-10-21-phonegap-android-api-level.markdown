@@ -59,4 +59,4 @@ sed -i '' 's/android:minSdkVersion="10"/android:minSdkVersion="19"/g' $MANIFEST
 echo ">>>>> OK, replaced the sdk versions."
 {% endhighlight %}
 
-Ich konnte bei meinen Recherchen keine überzeugende Lösung finden, weshalb ich mich entschieden habe diesen kleinen Post darüber zu schreiben. Warum Phonegap/Cordova diese Konfiguration nicht out-of-the-box unterstützt ist mir bis jetzt noch unklar. Dennoch ist dieses Problem wohl nichts Neues für die Phonegap-Community: Es existiert sogar ein grunt-Task, welcher dieses Problem ähnlich löst: [grunt-phonegap](https://github.com/logankoester/grunt-phonegap).
+Ich konnte bei meinen Recherchen keine überzeugende Lösung finden, weshalb ich mich entschieden habe diesen kleinen Post darüber zu schreiben. Warum Phonegap/Cordova diese Konfiguration nicht out-of-the-box unterstützt ist mir bis jetzt noch unklar. Dennoch ist dieses Problem wohl nichts Neues für die Phonegap-Community: Es existiert sogar ein grunt-Task, welcher dieses Problem ähnlich löst: [grunt-phonegap](https://github.com/logankoester/grunt-phonegap#minsdkversion-and-targetsdkversion).
