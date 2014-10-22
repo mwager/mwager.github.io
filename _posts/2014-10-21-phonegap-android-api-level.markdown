@@ -42,7 +42,7 @@ Wie ich feststellen musste hat dies jedoch leider keine Auswirkungen auf lokale 
 
 ## Die Lösung ##
 
-Die Lösung ist nun eine eigene Cordova-Hook anzulegen. [Cordova-Hooks](https://github.com/apache/cordova-lib/blob/master/cordova-lib/templates/hooks-README.md) sind Skripte, welche zu gegebenen Zeiten ausgeführt werden. Wir wollen hier einfach nur die min-sdk Version ersetzen, wofür ich folgendes Skript erstellt habe:
+Eine mögliche Lösung ist nun, eine eigene Cordova-Hook anzulegen. [Cordova-Hooks](https://github.com/apache/cordova-lib/blob/master/cordova-lib/templates/hooks-README.md) sind Skripte, welche es ermöglichen bei Bedarf die Cordova CLI Tools um individuelle Logik zu erweitern. Wir wollen hier einfach nur die min-sdk Version ersetzen, wofür ich folgendes Skript erstellt habe:
 
 `$CORDOVA_ROOT/hooks/before_compile/index`
 
@@ -59,6 +59,4 @@ sed -i '' 's/android:minSdkVersion="10"/android:minSdkVersion="19"/g' $MANIFEST
 echo ">>>>> OK, replaced the sdk versions."
 {% endhighlight %}
 
-Scheinbar ist dieses Problem nichts Neues für die Phonegap-Community: Es existiert sogar ein grunt-Task, welcher dieses Problem ähnlich löst: [grunt-phonegap](https://github.com/logankoester/grunt-phonegap)
-
-Hast du eine bessere Lösung? Dann würde ich mich über einen Kommentar sehr freuen!
+Ich konnte bei meinen Recherchen keine überzeugende Lösung finden, weshalb ich mich entschieden habe diesen kleinen Post darüber zu schreiben. Warum Phonegap/Cordova diese Konfiguration nicht out-of-the-box unterstützt ist mir bis jetzt noch unklar. Dennoch ist dieses Problem wohl nichts Neues für die Phonegap-Community: Es existiert sogar ein grunt-Task, welcher dieses Problem ähnlich löst: [grunt-phonegap](https://github.com/logankoester/grunt-phonegap).
