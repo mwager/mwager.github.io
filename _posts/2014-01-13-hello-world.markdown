@@ -22,7 +22,7 @@ var blogIsAbout = [
 var blogReasons = [
     'writing',
     'documentation',
-    'help other people (maybe)'
+    'help other people (hopefully!)'
 ];
 </pre>
 
