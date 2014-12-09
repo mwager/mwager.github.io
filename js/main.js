@@ -76,7 +76,8 @@ window.onerror = function(m, f, l) {
 
 
     function init() {
-        log('Thanks for stopping by!');
+        log('Wanna work with me? mail@mwager.de');
+
         initHelloWorldExample();
         doDateWorkaround();
 
@@ -84,6 +85,35 @@ window.onerror = function(m, f, l) {
             autoPlay: false,
             maxWidth: 1024
         });
+
+        // --- howler demo ---
+        var $play1 = $('#play_1');
+        var $play2 = $('#play_2');
+        var $playLog;
+
+        if($play1.length) {
+            $playLog = $('#play-log');
+
+            var sound = new Howl({
+                src: ['/assets/my_sprite.ogg', '/assets/my_sprite.mp3'],
+                sprite: {
+                    e: [0, 4049],
+                    f: [5000, 3621]
+                },
+                onplay: function() {
+                    $playLog.html('playing...');
+                },
+                onend: function() {
+                    $playLog.html('ended.');
+                }
+            });
+            $play1.click(function() {
+                sound.play('e'); // plays the first chord
+            });
+            $play2.click(function() {
+                sound.play('f'); // plays the second chord
+            });
+        }
     }
 
     $(init);
