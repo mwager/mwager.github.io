@@ -11,7 +11,7 @@ categories: javascript
 
 <div class="center">
     <a target="_blank" title="zur Android-App" href="http://play.google.com/store/apps/details?id=de.deutscherfahrschulverlag.fsc&hl=de">
-        <img src="/images/fsc/app-icon.png" style="max-width: 200px;">
+        <img src="/images/fsc/app-icon1.png" style="max-width: 200px;">
     </a>
 </div>
 
