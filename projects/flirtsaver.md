@@ -9,9 +9,9 @@ categories: javascript
 
 <span class="post-date">09/2012 - 10/2012</span>
 
-<a href="http://flirtsaver.com/123456" title="zur App" target="_blank">
-    <img src="/images/flirtsaver.gif">
-</a>
+<!--<a href="http://flirtsaver.com/123456" title="zur App" target="_blank">-->
+<img src="/images/flirtsaver.gif">
+<!--</a>-->
 
 
 <strong>flirtsaver® ist Micro-Dating mit Herz.</strong><br/>
@@ -21,7 +21,7 @@ categories: javascript
 
 Entwicklung und Qualitätssicherung einer echtzeitfähigen Webapplikation mit Node.js. Eine Zusammenarbeit mit der [Team & Marke UG](http://teamundmarke.de).
 
-Weitere Informationen auf [www.flirtsaver.de](http://www.flirtsaver.de).
+<!-- Weitere Informationen auf [www.flirtsaver.de](http://www.flirtsaver.de). -->
 
 ## Technologien ##
 
