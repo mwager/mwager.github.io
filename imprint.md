@@ -6,13 +6,11 @@ permalink: /imprint/
 
 ## KONTAKTINFORMATIONEN GEMÄSS § 5 TELEMEDIENGESETZ (TMG) ##
 
-<address>
 Michael Wager<br>
 {{ site.street }}<br>
 {{ site.address }}<br>
 {{ site.email }}<br>
 Tel: {{ site.tel_nr }}<br>
-</address>
 
 ## VERANTWORTLICH FÜR DEN INHALT NACH § 55 ABS. 2 RSTV
 
