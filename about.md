@@ -4,7 +4,7 @@ title: Über mich
 permalink: /about/
 ---
 <div style="text-align:center;">
-    <img src="/images/me_color.png" class="selfie-about">
+    <img src="/images/me_color.jpg" class="selfie-about">
 </div>
 
 Im Jahr 2011 habe ich das Studium der Informatik an der Hochschule Augsburg mit den Schwerpunkten Software Engineering und Open Source erfolgreich abgeschlossen und lebe seitdem in Augsburg. Ich bin sportlich, spiele seit über 10 Jahren Gitarre und kann auch auf etliche Jahre Banderfahrung zurückblicken.
