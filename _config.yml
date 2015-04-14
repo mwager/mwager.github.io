@@ -6,7 +6,7 @@ email: mail@mwager.de
 description: "software engineering für web & mobile"
 keywords: javascript php software engineering german augsburg münchen munich mwager blog freelance web developer
 baseurl: ""
-url: "https://mwager.de"
+url: "http://mwager.de"
 
 # source: ./
 
@@ -29,7 +29,7 @@ timezone: Europe/Berlin
 safe: false
 
 # on mwager.de we use this: (replaced to "prod" by grunt deploy)
-env: "dev"
+env: "prod"
 
 lsi: false
 

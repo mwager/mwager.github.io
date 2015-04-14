@@ -18,5 +18,5 @@ Besonders hohen Wert lege ich auf Methoden der Qualitätssicherung wie testgetri
 
 Gute Software entsteht meißtens am Besten in kleinen, motivierten Teams. Ich habe Spaß an dem was ich mache. Interesse an einer Zusammenarbeit? Zögern Sie nicht mich anzurufen oder mir eine E-Mail zu schreiben.
 
-E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a> (<a href="https://mwager.de/mwager.asc">PGP public key</a>)<br/>
+E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a> (<a href="site.url/mwager.asc">PGP public key</a>)<br/>
 Tel: {{ site.tel_nr }}
