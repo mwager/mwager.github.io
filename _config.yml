@@ -29,7 +29,7 @@ timezone: Europe/Berlin
 safe: false
 
 # on mwager.de we use this: (replaced to "prod" by grunt deploy)
-env: "prod"
+env: "dev"
 
 lsi: false
 
