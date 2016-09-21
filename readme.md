@@ -1,4 +1,4 @@
-Sources of my website/blog using jekyll together with github pages: [https://mwager.de](https://mwager.de) --> [https://mwager.github.io](https://mwager.github.io)
+Sources of my website/blog using jekyll together with github pages: [http://mwager.de](http://mwager.de) --> [https://mwager.github.io](https://mwager.github.io)
 
 Some stuff I'm using:
 
