@@ -4,7 +4,7 @@ title: Über mich
 permalink: /about/
 ---
 <div style="text-align:center;">
-    <img src="/images/me_color.jpg" class="selfie-about">
+    <img src="/images/me.jpg" class="selfie-about">
 </div>
 
 Im Jahr 2011 habe ich das Studium der Informatik an der Hochschule Augsburg mit den Schwerpunkten Software Engineering und Open Source erfolgreich abgeschlossen und lebe seitdem in Augsburg. Ich bin sportlich, spiele seit über 15 Jahren Gitarre und kann auch auf etliche Jahre Banderfahrung zurückblicken.
@@ -16,7 +16,7 @@ Besonders hohen Wert lege ich auf Methoden der Qualitätssicherung wie testgetri
 
 ## Kontakt ##
 
-Gute Software entsteht meißtens am Besten in kleinen, motivierten Teams. Ich habe Spaß an dem was ich mache. Interesse an einer Zusammenarbeit? Zögern Sie nicht mich anzurufen oder mir eine E-Mail zu schreiben.
+Wirklich gute Software entsteht meißtens in kleinen, motivierten Teams. Ich habe Spaß an dem was ich mache. Interesse an einer Zusammenarbeit? Zögern Sie nicht mich anzurufen oder mir eine E-Mail zu schreiben.
 
 E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a> (<a href="{{ site.url }}/mwager.asc">PGP public key</a>)<br/>
 Tel: {{ site.tel_nr }}

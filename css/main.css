@@ -294,8 +294,8 @@ footer .wrap {
 
 }
 .selfie-about {
-  border-radius: 50%;
-  max-width: 200px !important;
+  border-radius: 10px;
+  max-width: 300px !important;
   /*float: left;*/
   margin: 7px;
   padding: 3px;
