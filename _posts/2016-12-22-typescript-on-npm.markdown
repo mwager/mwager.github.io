@@ -7,7 +7,7 @@ categories: javascript
 
 Dieser kurze Post zeigt eine mögliche Lösung, TypeScript-basierte Repositories via NPM zu installieren.
 
-In einem aktuellen Projekt sollen TypeScript-basierte Repositories per NMP installiert werden können. Es existiert jedoch kein privater NPM Registry Server, d.h. die Repos werden einfach via git installiert:
+In einem aktuellen Projekt sollen TypeScript-basierte Repositories per NPM installiert werden können. Es existiert jedoch kein privater NPM Registry Server, d.h. die Repos werden einfach via git installiert:
 
 `package.json` eines konsumierenden Projekts:
 
@@ -79,7 +79,7 @@ Die `tsconfig.json` sieht folgendermaßen aus:
 }
 {% endhighlight %}
 
-Jetzt muss man nur noch in der package.json das "main" property angeben:
+Jetzt muss man nur noch in der `package.json` das `"main"` property angeben:
 
 {% highlight json %}
 "main": "js/index.js"
