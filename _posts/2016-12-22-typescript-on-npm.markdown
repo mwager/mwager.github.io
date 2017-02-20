@@ -15,7 +15,7 @@ In einem aktuellen Projekt sollen TypeScript-basierte Repositories per NPM insta
 "my-repo": "git+https://example.com/scm/foo/my-repo.git#1.0.0"
 {% endhighlight %}
 
-Daraus folgt, dass der kompilierte JavaScript-Code zusätzlich im Repo liegen muss. Diesen Seite-an-Seite mit dem TypeScript Code zu legen wollten wir jedoch vermeiden.
+Der kompilierten JavaScript Quellen müssen sich zusätzlich im Repository befinden. Diese Seite-an-Seite zu den TypeScript Quellen zu legen wollten wir jedoch vermeiden.
 
 Der TypeScript Compiler unterstützt glücklicherweise eine Funktion namens "outDir", welche es ermöglicht die generierten JavaScript Dateien in ein eigenes Verzeichnis zu legen.
 
@@ -23,24 +23,25 @@ Daraus ergab sich bei uns folgende Verzeichnisstruktur:
 
 {% highlight bash %}
 src/
-  some-file.ts
-  some-file.spec.ts
+  some-class.ts
+  some-class.spec.ts
   index.ts
 
 js/
-  some-file.js
-  some-file.js.map
+  some-class.js
+  some-class.js.map
+  some-class.d.ts
   index.js
   index.js.map
+  index.d.ts
 ...
 tsconfig.json
-tslint.json
 {% endhighlight %}
 
 `index.ts` enthält alle notwendigen exports:
 
 {% highlight javascript %}
-export { SomeClass } from './some-file';
+export { SomeClass } from './some-class';
 {% endhighlight %}
 
 Die `tsconfig.json` sieht folgendermaßen aus:
@@ -48,7 +49,6 @@ Die `tsconfig.json` sieht folgendermaßen aus:
 {% highlight json lineos %}
 {
   "compilerOptions": {
-    "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
@@ -61,6 +61,7 @@ Die `tsconfig.json` sieht folgendermaßen aus:
       "./node_modules/@types"
     ],
     "outDir": "js",
+    "declaration": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true
   },
@@ -79,10 +80,11 @@ Die `tsconfig.json` sieht folgendermaßen aus:
 }
 {% endhighlight %}
 
-Jetzt muss man nur noch in der `package.json` das `"main"` property angeben:
+Die Quellen werden dadurch zusammen mit den Declaration-Dateien im `js` Verzeichnis abgelegt. Jetzt muss man nur noch in der `package.json` das `"main"`-, sowie das `"types"`-Property angeben:
 
 {% highlight json %}
-"main": "js/index.js"
+"main": "./js/index.js",
+"types": "./js/index.d.ts",
 {% endhighlight %}
 
 Somit kann man in anderen Repositories dieses via NPM installieren und importieren:
@@ -90,3 +92,8 @@ Somit kann man in anderen Repositories dieses via NPM installieren und importier
 {% highlight javascript %}
 import { SomeClass } from "my-repo";
 {% endhighlight %}
+
+
+## Links
+
+* [https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html)
