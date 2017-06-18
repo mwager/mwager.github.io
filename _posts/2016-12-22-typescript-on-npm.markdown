@@ -15,7 +15,7 @@ In einem aktuellen Projekt sollen TypeScript-basierte Repositories per NPM insta
 "my-repo": "git+https://example.com/scm/foo/my-repo.git#1.0.0"
 {% endhighlight %}
 
-Der kompilierten JavaScript Quellen müssen sich zusätzlich im Repository befinden. Diese Seite-an-Seite zu den TypeScript Quellen zu legen wollten wir jedoch vermeiden.
+Die kompilierten JavaScript Quellen müssen sich zusätzlich im Repository befinden. Diese Seite-an-Seite zu den TypeScript Quellen zu legen wollten wir jedoch vermeiden.
 
 Der TypeScript Compiler unterstützt glücklicherweise eine Funktion namens "outDir", welche es ermöglicht die generierten JavaScript Dateien in ein eigenes Verzeichnis zu legen.
 

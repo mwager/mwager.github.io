@@ -71,6 +71,22 @@
   visibility: hidden;
 }*/
 
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%; /* Default for 1600x900 videos 16:9 ratio*/
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 html, body { height: 100%; }
 
 body {
@@ -708,7 +724,22 @@ h3 {
 }
 
 
+/* small screens */
+@media (max-width: 48em) {
+  img.test-your-shit {
+    max-width: 300px;
+  }
+  iframe.test-your-shit-iframe {
+   /* TODO cutted... max-width: 300px !important;*/
+  }
+}
+
+/* big screens: */
 @media (min-width: 48em) {
+    img.test-your-shit {
+      max-width: 500px;
+    }
+
     .content {
         padding: 2em 3em 0;
         margin-left: 25%;

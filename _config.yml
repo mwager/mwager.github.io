@@ -32,6 +32,8 @@ env: "dev"
 
 lsi: false
 
+# https://stackoverflow.com/questions/30625044/jekyll-post-not-generated
+future: true
 
 # exclude file while running "jekyll build"
 # NOTE: .htaccess manually
