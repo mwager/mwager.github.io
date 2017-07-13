@@ -5,7 +5,7 @@ date:   2017-06-18 18:27:21
 categories: software_engineering
 ---
 
-So you don't write tests, eh? This is what I think of you.
+So you don't write tests, eh? This is what I think about it.
 
 <div class="responsive-video">
   <iframe
@@ -67,8 +67,6 @@ If there was a simple test which expects that `toJSON` has to be called, it woul
 
 
 ## Some arguments for testing
-
-(This is mainly a collection of arguments I can introduce to new teams 😅)
 
 1. Tests are (living) __documentation__ (= specification) - this means they are __executable code documentation__ - see [BDD on wikipedia](https://en.wikipedia.org/wiki/Behavior-driven_development) <br> -> Do you always update the code docs when changing code?! (If your answer is yes: 😂)
 
