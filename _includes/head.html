@@ -7,10 +7,6 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/atom+xml" href="feed.xml" title="RSS feed">
 
-    {% if site.safe or site.env == 'prod' %}
-    <base href="{{ '' | prepend: site.baseurl | prepend: site.url }}">
-    {% endif %}
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
 
