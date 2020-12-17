@@ -4,7 +4,7 @@
 title: michael wager | software engineering
 email: mail@mwager.de
 description: "software engineering für web & mobile"
-keywords: javascript php software engineering germany augsburg münchen munich mwager blog freelance web developer
+keywords: "javascript typescript nodejs php software engineering germany augsburg münchen munich blog freelance fullstack web developer frontend backend itsecurity"
 baseurl: ""
 url: "https://mwager.de"
 
@@ -13,7 +13,6 @@ url: "https://mwager.de"
 # some globals:
 street: Lauterlech 39
 address: 86152 Augsburg
-tel_nr: +49-821/50832063
 
 # Build settings
 # markdown: (kramdown or redcarpet?)
