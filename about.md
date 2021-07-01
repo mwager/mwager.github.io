@@ -1,21 +1,23 @@
 ---
 layout: page
-title: Über mich
+title: About me
 permalink: /about/
 ---
+
 <div style="text-align:center;">
     <img src="/images/me.jpg" class="selfie-about">
 </div>
 
-Im Jahr 2011 habe ich das Studium der Informatik an der <a target="_blank" href="https://www.hs-augsburg.de/">Hochschule Augsburg</a> mit den Schwerpunkten Software Engineering und Open Source erfolgreich abgeschlossen und lebe seitdem in Augsburg. Ich bin sportlich, spiele seit über 15 Jahren Gitarre und kann auch auf etliche Jahre Banderfahrung zurückblicken.
+In 2011 I successfully graduated from the <a target="_blank" href="https://www.hs-augsburg.de/">University Applied Sciences</a> in Augsburg with a bachelor degree in Computer Science, specializing in Software Engineering and Web Development, and have been living in Augsburg ever since. I'm sporty, play the guitar since I am 15 and also have quite a few years of band experience.
 
-Ich arbeite als freier Webentwickler mit Schwerpunkt Frontend- bzw. JavaScript Entwicklung. Dabei unterstütze ich meine Kunden von der Konzeption bis zur Auslieferung und achte stets darauf, zeitgemäße Technologien verantwortungsbewusst einzusetzen sowie die Bedürfnisse der Endbenutzer nicht zu vergessen.
+I work as a freelance web developer with focus on Fullstack and JavaScript development. I support my clients from conception to delivery and always make sure to use contemporary technologies responsibly as well as not forgetting the needs of the end users.
 
-Besonders hohen Wert lege ich auf Methoden der Qualitätssicherung wie testgetriebene Entwicklung, den Einsatz von Versionskontrolle oder Tools zur statischen Codeanalyse. Außerdem bin ich überzeugter Benutzer von Open-Source Software und <a target="_blank" href="https://github.com/mwager/">engagiere mich</a> auch in diesem Bereich sofern meine Zeit es zulässt.
+Since April 2020, I am doing my Master's degree in <a href="https://www.hs-augsburg.de/en/Electrical-Engineering/Industrial-Security-and-Safety-MSc.html" target=_blank>Industrial Security and Safety</a> at the <a target="_blank" href="https://www.hs-augsburg.de/">University of Applied Scienses</a> in Augsburg.
 
+I particularly value quality assurance methods like test-driven development, code reviews, the use of version control or tools for static code analysis. Furthermore, I am a convinced user of open source software and <a target="_blank" href="https://github.com/mwager/">engage myself</a> in this area as well, if my time allows it.
 
-## Kontakt ##
+## Contact
 
-Wirklich gute Software entsteht meißtens in kleinen, motivierten Teams. Ich habe Spaß an dem was ich mache. Interesse an einer Zusammenarbeit? Zögern Sie nicht mich anzurufen oder mir eine E-Mail zu schreiben.
+Good software is usually created in small, motivated teams. I love doing what I do. Interested in working with me? Don't hesitate to send me an email.
 
-E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a> (<a href="/mwager.asc">PGP public key</a>)<br/>
+E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a> (<a href="/assets/mwager.asc">PGP public key</a>)<br/>

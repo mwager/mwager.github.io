@@ -10,19 +10,19 @@ Der obligatorische `hello world` Post.
 <pre id="hello-world">
 helloWorld();
 
-var blogIsAbout = [
+const blogIsAbout = [
   'javascript',
-  'front end dev',
+  'web development',
   'open source',
   'hacking experiments',
   'projects',
-  'maybe php'
+  'and more...'
 ];
 
-var blogReasons = [
-    'writing',
-    'documentation',
-    'help other people (hopefully!)'
+const blogReasons = [
+  'writing',
+  'documentation',
+  'help other people (hopefully!)'
 ];
 </pre>
 
