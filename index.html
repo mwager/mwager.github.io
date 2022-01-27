@@ -3,42 +3,60 @@ layout: default
 ---
 
 <div class="home">
-    <div id="blog">
-        <h1>Artikel</h1>
+  <div id="blog">
+    <h1>Artikel</h1>
 
-        <section class="post featured">
-            <header class="post-header">
-                <span class="post-date">19. August 2013</span>
-                <h2 class="post-headline">
-                    <a href="http://phpmagazin.de/artikel/Moderne-JavaScript-Applikationen-ein-Ueberblick">
-                        PHPMagazin: Moderne JavaScript-Applikationen – ein Überblick
-                    </a>
-                </h2>
-            </header>
+    <section class="post featured">
+      <header class="post-header">
+        <!-- <span class="post-date">August 2013</span> -->
+        <h2 class="post-headline">
+          <a
+            href="https://entwickler.de/javascript/moderne-javascript-applikationen-ein-uberblick"
+          >
+            PHPMagazin: Moderne JavaScript-Applikationen – ein Überblick
+          </a>
+        </h2>
+      </header>
 
-            <div class="post-description">
-                <p>
-                Single-Page-App? Nein, damit ist nicht die App einer Partnerbörse gemeint. So mancher denkt bei dem Begriff vielleicht sogar an eine "Landing Page" zur Vorstellung eines neuen Produkts. Gemeint sind damit jedoch Webapplikationen basierend auf der Sprache JavaScript, welche vorwiegend darauf abzielen, das Benutzererlebnis zu verbessern.
-                </p>
+      <div class="post-description">
+        <p>
+          Single-Page-App? Nein, damit ist nicht die App einer Partnerbörse
+          gemeint. So mancher denkt bei dem Begriff vielleicht sogar an eine
+          "Landing Page" zur Vorstellung eines neuen Produkts. Gemeint sind
+          damit jedoch Webapplikationen basierend auf der Sprache JavaScript,
+          welche vorwiegend darauf abzielen, das Benutzererlebnis zu verbessern.
+        </p>
 
-                <p>Weiterlesen auf <a href="http://phpmagazin.de/artikel/Moderne-JavaScript-Applikationen-ein-Ueberblick">phpmagazin.de</a>
-                </p>
-            </div>
-        </section>
+        <p>
+          Weiterlesen auf
+          <a
+            href="https://entwickler.de/javascript/moderne-javascript-applikationen-ein-uberblick"
+            >entwickler.de</a
+          >
+          <br />
+          <br />
 
-        {% for post in site.posts %}
-        <section class="post">
-            <header class="post-header">
-                <span class="post-date jdate">{{ post.date | date: "%-d. %m. %Y" }}</span>
-                <h2 class="post-headline"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            </header>
-            <div class="post-description">
-                {{ post.excerpt }}
-            </div>
-        </section>
-        {% endfor %}
+          → → Weitere Artikel von mir im PHPMagazin
 
-        <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-    </div>
+          <a href="https://entwickler.de/experten/michael-wager">hier</a> 😎
+        </p>
+      </div>
+    </section>
+
+    {% for post in site.posts %}
+    <section class="post">
+      <header class="post-header">
+        <span class="post-date jdate"
+          >{{ post.date | date: "%-d. %m. %Y" }}</span
+        >
+        <h2 class="post-headline">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </header>
+      <div class="post-description">{{ post.excerpt }}</div>
+    </section>
+    {% endfor %}
+
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+  </div>
 </div>
-
