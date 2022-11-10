@@ -6,7 +6,7 @@ permalink: /about/
 
 <div style="text-align:center;">
     <a href="javascript:;" id="launcher">
-        <img src="/images/me.jpg" class="selfie-about">
+        <img src="/images/me/me0.jpg" class="selfie-about">
     </a>
 </div>
 
@@ -23,8 +23,8 @@ I particularly value quality assurance methods like test-driven development, cod
 <div style="display:none">
     <div class="fancy-images-in-grid pure-g">
         <div class="pure-u-1-3">
-            <a href="/images/me.jpg" class="fancybox" rel="me-images">
-                <img src="/images/me.jpg" />
+            <a href="/images/me/me0.jpg" class="fancybox" rel="me-images">
+                <img src="/images/me/me0.jpg" />
             </a>
         </div>
         <div class="pure-u-1-3">

@@ -336,10 +336,15 @@ footer .wrap {
 }
 .selfie-about {
   border-radius: 10px;
-  max-width: 300px !important;
+  max-width: 600px !important;
   /*float: left;*/
   margin: 7px;
   padding: 3px;
+}
+@media screen and (max-width: 600px) {
+  .selfie-about {
+    max-width: 300px !important;
+  }
 }
 
 /* Site footer */

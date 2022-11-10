@@ -77,7 +77,7 @@ Aggregate score: 4.9 / 10
 
 ## Conclusion
 
-Scorecard is a very interesting project. As I've been a developer myself for more than 10 years, I now how hard it is to evaluate new dependencies​. The checks of scorecard also look for quality assurance (e.g. CI Tests or Code-Review) which is a nice thing for sure! So the usage of scorecards gives developers a quick way to decide​ if a certain project is worth looking into more.
+Scorecard is a very interesting project. As I've been a developer myself for more than 10 years, I know how hard it is to evaluate new dependencies​. The checks of scorecard also look for quality assurance (e.g. CI Tests or Code-Review) which is a nice thing for sure! So the usage of scorecards gives developers a quick way to decide​ if a certain project is worth looking into more.
 
 Also, it provides security analysts with a solid base for decision making when asked if a certain library can be included into an application.
 
