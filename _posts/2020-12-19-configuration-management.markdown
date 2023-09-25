@@ -5,7 +5,7 @@ date: 2020-12-19 18:17:24
 categories: cyber_security
 ---
 
-I am doing my master's degree in <a href="https://www.hs-augsburg.de/en/Electrical-Engineering/Industrial-Security-and-Safety-MSc.html" target=_blank>Industrial Security and Safety</a> since april 2020 at <a target="_blank" href="https://www.hs-augsburg.de/">University of Applied Scienses</a> in Augsburg. It was quite a crazy start due to covid. This post introduces my work on a major project, which I did together with two fellow students, which goal was to secure the state of an industrial automation facility by developing a configuration management solution.
+I am doing my master's degree in <a href="https://www.hs-augsburg.de/en/Electrical-Engineering/Industrial-Security-and-Safety-MSc.html" target=_blank>Industrial Security and Safety</a> since april 2020 at <a target="_blank" href="https://www.hs-augsburg.de/">University of Applied Sciences</a> in Augsburg. It was quite a crazy start due to covid. This post introduces my work on a major project, which I did together with two fellow students, which goal was to secure the state of an industrial automation facility by developing a configuration management solution.
 <br><br>Read the full paper <a href="https://mwager.de/MIS2020_Grossprojekt_CM_report.pdf" target=_blank>here</a>
 
 ## Abstract

@@ -5,7 +5,7 @@ date: 2021-06-30 13:17:11
 categories: cyber_security
 ---
 
-In the context of the lecture <strong>Network Penetration Testing</strong> at the <a target="_blank" href="https://www.hs-augsburg.de/">University of Applied Scienses</a> in Augsburg, I recently did an evaluation of the <a target="_blank" href="https://github.com/owtf/owtf">Offensive Web Testing Framework</a> (OWTF) from the <a target="_blank" href="https://owasp.org/">Open Web Application Security Project</a> (OWASP). <br><br>Read the full paper <a href="/assets/owtf.pdf" target=_blank>here</a>.
+In the context of the lecture <strong>Network Penetration Testing</strong> at the <a target="_blank" href="https://www.hs-augsburg.de/">University of Applied Sciences</a> in Augsburg, I recently did an evaluation of the <a target="_blank" href="https://github.com/owtf/owtf">Offensive Web Testing Framework</a> (OWTF) from the <a target="_blank" href="https://owasp.org/">Open Web Application Security Project</a> (OWASP). <br><br>Read the full paper <a href="/assets/owtf.pdf" target=_blank>here</a>.
 
 ## Abstract
 

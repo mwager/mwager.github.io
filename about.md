@@ -14,7 +14,7 @@ In 2011 I successfully graduated from the <a target="_blank" href="https://www.h
 
 For 10+ years I worked as a freelance web developer with focus on Fullstack and JavaScript development. I supported clients from conception to delivery and always made sure to use contemporary technologies responsibly as well as not forgetting the needs of end users.
 
-In April 2020 I started my Master's degree in <a href="https://www.hs-augsburg.de/en/Electrical-Engineering/Industrial-Security-and-Safety-MSc.html" target=_blank>Industrial Security and Safety</a> at the <a target="_blank" href="https://www.hs-augsburg.de/">University of Applied Scienses</a> in Augsburg and in May 2022 I started a <a target="_blank" href="https://www.secure-io.de/">permanent position</a> as a Cyber Security Consultant, focussing on DevSecOps and application security.
+In April 2020 I started my Master's degree in <a href="https://www.hs-augsburg.de/en/Electrical-Engineering/Industrial-Security-and-Safety-MSc.html" target=_blank>Industrial Security and Safety</a> at the <a target="_blank" href="https://www.hs-augsburg.de/">University of Applied Sciences</a> in Augsburg and in May 2022 I started a <a target="_blank" href="https://www.secure-io.de/">permanent position</a> as a Cyber Security Consultant, focussing on DevSecOps and application security.
 
 <!--
 I particularly value quality assurance methods like test-driven development, code reviews, the use of version control or tools for static code analysis. Furthermore, I am a convinced user of open source software and <a target="_blank" href="https://github.com/mwager/">engage myself</a> in this area as well, if my time allows it.
