@@ -1,10 +1,10 @@
 # --- jekyll config ---
 
 # Site settings
-title: michael wager | software engineering
+title: michael wager | software engineering & cyber security
 email: mail@mwager.de
-description: "software engineering für web & mobile"
-keywords: "javascript typescript nodejs php software engineering germany augsburg münchen munich blog freelance fullstack web developer frontend backend security forensics cyber linux hacking"
+description: "software engineering & cyber security"
+keywords: "javascript typescript nodejs php software engineering germany augsburg münchen munich blog freelance fullstack web developer frontend backend security forensics cyber cybersecurity linux hacking container"
 baseurl: ""
 url: "https://mwager.de"
 
