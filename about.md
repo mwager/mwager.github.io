@@ -10,9 +10,7 @@ permalink: /about/
     </a>
 </div>
 
-In 2011 I successfully graduated from the <a target="_blank" href="https://www.hs-augsburg.de/">University Applied Sciences</a> in Augsburg with a bachelor degree in Computer Science, specializing in Software Engineering and Web Development, and have been living in Augsburg ever since. I'm sporty, play the guitar since I am 15 and also have quite a few years of band experience.
-
-For 10+ years I worked as a freelance web developer with focus on Fullstack and JavaScript development. I supported clients from conception to delivery and always made sure to use contemporary technologies responsibly as well as not forgetting the needs of end users.
+In 2011 I successfully graduated from the <a target="_blank" href="https://www.hs-augsburg.de/">University Applied Sciences</a> in Augsburg with a bachelor degree in Computer Science, specializing in Software Engineering and Web Development. For 10+ years I worked and consulted as a freelance web developer with main focus on Fullstack-JavaScript development, automation of quality assurance and knowledge transfer.
 
 In April 2020 I started my Master's degree in <a href="https://www.hs-augsburg.de/en/Electrical-Engineering/Industrial-Security-and-Safety-MSc.html" target=_blank>Industrial Security and Safety</a> at the <a target="_blank" href="https://www.hs-augsburg.de/">University of Applied Sciences</a> in Augsburg and in May 2022 I started a <a target="_blank" href="https://www.secure-io.de/">permanent position</a> as a Cyber Security Consultant, focussing on DevSecOps and application security.
 
@@ -23,6 +21,11 @@ I particularly value quality assurance methods like test-driven development, cod
 <div style="display:none">
     <div class="fancy-images-in-grid pure-g">
         <div class="pure-u-1-3">
+            <a href="/images/me/master.jpg" class="fancybox" rel="me-images">
+                <img src="/images/me/master.jpg" />
+            </a>
+        </div>
+				<div class="pure-u-1-3">
             <a href="/images/me/me0.jpg" class="fancybox" rel="me-images">
                 <img src="/images/me/me0.jpg" />
             </a>
