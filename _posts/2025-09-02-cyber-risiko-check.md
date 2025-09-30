@@ -37,4 +37,4 @@ Als geschulter Berater nach DIN 27076 biete ich:
 
 ## 🎓 Zusatzqualifikation
 
-Neben der DIN 27076 Schulung habe ich auch die **ISO/IEC 27001 Officer Schulung** erfolgreich abgeschlossen. Damit bin ich in der Lage, Unternehmen zusätzlich zur Umsetzung eines vollständigen Informationssicherheitsmanagementsystems (ISMS) nach internationalem Standard zu beraten.
+Neben der DIN 27076 Schulung habe ich auch die **ISO/IEC 27001 Officer Schulung** [erfolgreich abgeschlossen](/assets/27001_officer_cert.pdf). Damit bin ich in der Lage, Unternehmen zusätzlich zur Umsetzung eines vollständigen Informationssicherheitsmanagementsystems (ISMS) nach internationalem Standard zu beraten.
