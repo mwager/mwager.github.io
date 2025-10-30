@@ -3,3 +3,5 @@ _site
 _.htpasswd
 .jekyll-cache
 .vscode
+.ftpass
+node_modules

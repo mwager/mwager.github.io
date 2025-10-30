@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div id="blog">
+    <h1>Artikel</h1>
+
+    <section class="post featured">
+      <header class="post-header">
+        <!-- <span class="post-date">August 2013</span> -->
+        <h2 class="post-headline">
+          <a target="_blank"
+            href="/assets/component_reduction_paper.pdf""
+          >🔥 Master Thesis 🔥
+            Evaluating the security of containers through reduction of potentially vulnerable components
+          </a>
+        </h2>
+      </header>
+
+      <div class="post-description">
+				<p>
+					In January 2024 I finished my master thesis titled "Evaluating the security of containers through reduction of potentially vulnerable components". Basically, it is an evaluation of "distroless images". For NDA reasons, I cannot publish it, so I created a shortened paper from it. You can read it <a href="/assets/component_reduction_paper.pdf" target=_blank>here</a>.
+					</p>
+      </div>
+    </section>
+
+    {% for post in site.posts %}
+    <section class="post">
+      <header class="post-header">
+        <span class="post-date jdate"
+          >{{ post.date | date: "%-d. %m. %Y" }}</span
+        >
+        <h2 class="post-headline">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </header>
+      <div class="post-description">{{ post.excerpt }}</div>
+    </section>
+    {% endfor %}
+
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+  </div>
+</div>
